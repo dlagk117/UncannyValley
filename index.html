@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="shortcut icon" href="favicon.ico" >
+<link rel="icon" href="favicon.ico" >	
 	<title>uncanny</title>
 	<style type="text/css">
+
+
+
 @font-face { font-family: 'NotoSerifKR'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NotoSerifKR.woff') format('woff'); font-weight: normal; font-style: normal; }
 		html{margin: 0;  background: black; padding: 0;   font-family: 'NotoSerifKR'; color: white; font-size: 20px;}
 		body{position: relative; margin: 0; padding: 0;}
@@ -14,13 +19,15 @@
 	.text{  width:700px; font-size: 18px; line-height: 1.9; color:black; position: absolute; font-weight: 300;}
 	.leet15 {left: 15%; margin-top: 50px;}
 	.leet25 {left: 25%;margin-top: 50px;}
-	#monitor{position: fixed; z-index: 9999; background: black; color: white; padding: 5px; top: 0; right: 0; width: 70px;}
+	#monitor{position: fixed; z-index: 9999; opacity: 0; background: black; color: white; padding: 5px; top: 0; right: 0; width: 70px;}
 	#aa{ position: relative; background: url(lllogo.gif) 0% 0% /  cover; overflow: hidden;
 		background-attachment: fixed;}	
 	#bb{ position: relative; background: url(uncanny3.jpg) 0% 0% /  cover; overflow: hidden;
 		background-attachment: fixed;}			
+		footer{top: 90%; font-size: 10pt; left: 40%; position: absolute; color: white;}
+	.hov{transition: all ease 0.5s; opacity: 1;}
+.hov:hover {opacity: 0.3;}
 
-	
 	.logoo {animation: 1s gof linear 1s forwards; }	
 	.ani {animation: 3s gou linear 0s infinite  alternate;}	
 	.form { border: 1px solid white; padding: 10px; background: white; }
@@ -70,7 +77,7 @@
 	<div> <img src="llogo.gif" class="logoo"  style="width: 600px;left: 30%; top: 220px; z-index: 20; opacity: 0;"></div>
 	<div class="box logoo"  style=" top: 180px; overflow: hidden; width: 100%; z-index: 15; opacity: 0;"></div>
 	<div >
-		<img src="sisser.png"  id="un12" style="top: 900px; opacity: 0;">
+		<img src="sisser.png"  id="un12" style="top: 850px; opacity: 0;">
 	</div>
 		<div><p class="text leet25" style="top: 800px; opacity: 0;" id="un1"> <span style="background: white;line-height: 2.2; ">언캐니(Uncanny)<br> 기이한, 이상한, 묘한 어근이 되는 heim는 '집' 또는 '안락함','편안함'이라는 뜻을 지닌다. <br>여기에 un이 붙게 되면 낯설음, 불편함 등의 뜻이 된다.<br>
 	친숙하면서도 어쩐지 낯설고 두려운 감정을 정의한다.</p> </div>
@@ -88,11 +95,11 @@
 </section>		
 <section id="bb">
 		<img src="fantastic.gif" style="width: 100%;">
-		<div ><iframe width="632" height="474" src="https://www.youtube.com/embed/SgCxCZNkQ9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; width:600px; left: 10%; top: 30%;"></iframe> </div>
+		<div ><iframe width="632" height="474" src="https://www.youtube.com/embed/SgCxCZNkQ9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; width:600px; left: 10%; top: 32%;"></iframe> </div>
 
 		<div ><p class="text" id="un13" style=" left: 110%;top: 30%; color: white;" > <span style="background: black;line-height: 2.2; "> 푸른 거인이 작은 인간을 지배하는 환상의 별 이야기.<br> 푸른 거인들이 지배하는 이얌 행성.<br> 이곳에서 작은 인간들은 애완동물이나 장난감처럼 취급된다.<br> 아기 인간 ‘테어’는 어린 거인들의 장난으로 졸지에 엄마를 잃고 고아가 된다.<br> 마침 그곳을 지나던 거인소녀 티바의 도움으로 목숨을 구한다.<br> 도망치지 못하도록 목걸이를 채우고 기르는 것은 여느 거인들와 마찬가지지만<br> 티바는 테어를 친구처럼 아끼고 사랑해준다.<br>
 		</span></p></div>
-		<div><p class="text" id="un14" style=" top: 43%; color: white;" > <span style="background: black;line-height: 2.2; "> 테어는 우연한 기회에 티바가 공부하는 헤드폰을 통해 거인들의 지식을 전수받게 되고<br> 그들이 독점했던 우주의 질서와 비밀스런 정보들이 테어의 머리에도 또렷하게 새겨진다.<br> 성숙해가면서 명상에 몰두하는 거인들의 습성에 따라 테어에 대한 <br>티바의 관심도 서서히 줄어들 무렵, 테어는 학습용 헤드폰을 가지고 탈출을 감행한다.<br>탈출에 성공한 테어는 야생의 인간들을 만나 거인의 지식을 전파하며<br> 더 이상 괴물이나 거인을 두려워할 필요가 없다고 설득한다. </span> </p></div>
+		<div><p class="text" id="un14" style=" top: 42%; color: white;" > <span style="background: black;line-height: 2.2; "> 테어는 우연한 기회에 티바가 공부하는 헤드폰을 통해 거인들의 지식을 전수받게 되고<br> 그들이 독점했던 우주의 질서와 비밀스런 정보들이 테어의 머리에도 또렷하게 새겨진다.<br> 성숙해가면서 명상에 몰두하는 거인들의 습성에 따라 테어에 대한 <br>티바의 관심도 서서히 줄어들 무렵, 테어는 학습용 헤드폰을 가지고 탈출을 감행한다.<br>탈출에 성공한 테어는 야생의 인간들을 만나 거인의 지식을 전파하며<br> 더 이상 괴물이나 거인을 두려워할 필요가 없다고 설득한다. </span> </p></div>
 	<div class="form" id="un15" style="left: 5%;position: absolute; top: 65%; width:300px; background: black; height: 50px; opacity: 0;"></div>
 	<div><p class="text" id="un16" style="left: 9%; top: 64%; font-size: 30px;opacity: 0; color: white;"> Uncanny의 끌림 </p></div>
 
@@ -100,10 +107,10 @@
 	<div class="box" id="un18" style=" left: 28%; top: 65%; overflow: hidden; width: 1200px; height: 600px;  opacity: 0;"></div>
 	<div><p class="text" id="un19" style="left: 65%; top: 66%; width: 500px; line-height: 2.1; opacity: 0; color: white;">
 		"언캐니"를 가진 컨텐츠들울 기피하듯이 보여도<br> 많은 예술가들이 그 주제를 향해 손을 뻗는다. <br> 언캐니를 담은 컨텐츠들은 시각적인 불쾌함만이 아닌 <br>스토리 또한 인간의 어두운 면을 자극한다. <br> 지배만을 하던 인간이 외적인 존재에게 지배를 당한다. <br> 혹은 지극히 평범해서 인식하지 못하던 것을 기괴하게<br> 표현하여 불편함을 느끼게 한다.<br> 대중은 불쾌함을 느끼면서도 자신이 생각하지 못한 <br>부분에 고찰하고 자극을 느낀다. <br>
-			<a href="https://youtu.be/9mn4seqI8Vs">매트릭스</a> <br>
-			<a href="https://youtu.be/enm2sSSgE-Q">Us</a> <br>
-			<a href="https://youtu.be/wGODKQr1IfI">에반게리온</a><br> 
-			<a href="https://youtu.be/1HRTy26s4hw">괴물</a>
+			<a href="https://youtu.be/9mn4seqI8Vs" target="_blank">매트릭스</a> <br>
+			<a href="https://youtu.be/enm2sSSgE-Q" target="_blank">Us</a> <br>
+			<a href="https://youtu.be/wGODKQr1IfI" target="_blank">에반게리온</a><br> 
+			<a href="https://youtu.be/1HRTy26s4hw" target="_blank">괴물</a>
 	 </p></div>	
 
 		
@@ -128,9 +135,9 @@
 </section>
 
 <section style="height: 900px;" >
-<div>  <a href="word.html"><img src="word.gif" style=" top: 20%; left: 5%;"></a></div>	
-<div>  <a href="image.html"><img src="eye.gif" style=" top: 20%; left: 50%;"></a></div>	
-
+<div>  <a href="word.html"><img src="word.gif" class="hov" style=" top: 20%; left: 10%;"></a></div>	
+<div>  <a href="image.html"><img src="eye.gif" class="hov" style=" top: 20%; left: 55%;"></a></div>	
+<footer>Digital_Publishing_2_Lee_IamHa_copyright</footer>
 	
 </section>
 
